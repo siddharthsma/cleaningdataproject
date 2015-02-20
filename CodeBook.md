@@ -6,94 +6,94 @@ The tidy dataset can be found in new_tidy_dataset.txt inside the project folder.
 
 ### Variables
 
-subject                             : integer ( 0-30 )
-activity                            : nominal (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING)
-tBodyAcc-mean()-X                   : continous numerical
-tBodyAcc-mean()-Y                   : continous numerical
-tBodyAcc-mean()-Z                   : continous numerical
-tGravityAcc-mean()-X                : continous numerical
-tGravityAcc-mean()-Y                : continous numerical
-tGravityAcc-mean()-Z                : continous numerical
-tBodyAccJerk-mean()-X               : continous numerical
-tBodyAccJerk-mean()-Y               : continous numerical
-tBodyAccJerk-mean()-Z               : continous numerical
-tBodyGyro-mean()-X                  : continous numerical
-tBodyGyro-mean()-Y                  : continous numerical
-tBodyGyro-mean()-Z                  : continous numerical
-tBodyGyroJerk-mean()-X              : continous numerical
-tBodyGyroJerk-mean()-Y              : continous numerical
-tBodyGyroJerk-mean()-Z              : continous numerical
-tBodyAccMag-mean()                  : continous numerical
-tGravityAccMag-mean()               : continous numerical
-tBodyAccJerkMag-mean()              : continous numerical
-tBodyGyroMag-mean()                 : continous numerical
-tBodyGyroJerkMag-mean()             : continous numerical
-fBodyAcc-mean()-X                   : continous numerical
-fBodyAcc-mean()-Y                   : continous numerical
-fBodyAcc-mean()-Z                   : continous numerical
-fBodyAcc-meanFreq()-X               : continous numerical
-fBodyAcc-meanFreq()-Y               : continous numerical
-fBodyAcc-meanFreq()-Z               : continous numerical
-fBodyAccJerk-mean()-X               : continous numerical
-fBodyAccJerk-mean()-Y               : continous numerical
-fBodyAccJerk-mean()-Z               : continous numerical
-fBodyAccJerk-meanFreq()-X           : continous numerical
-fBodyAccJerk-meanFreq()-Y           : continous numerical
-fBodyAccJerk-meanFreq()-Z           : continous numerical
-fBodyGyro-mean()-X                  : continous numerical
-fBodyGyro-mean()-Y                  : continous numerical
-fBodyGyro-mean()-Z                  : continous numerical
-fBodyGyro-meanFreq()-X              : continous numerical
-fBodyGyro-meanFreq()-Y              : continous numerical
-fBodyGyro-meanFreq()-Z              : continous numerical
-fBodyAccMag-mean()                  : continous numerical
-fBodyAccMag-meanFreq()              : continous numerical
-fBodyBodyAccJerkMag-mean()          : continous numerical
-fBodyBodyAccJerkMag-meanFreq()      : continous numerical
-fBodyBodyGyroMag-mean()             : continous numerical
-fBodyBodyGyroMag-meanFreq()         : continous numerical
-fBodyBodyGyroJerkMag-mean()         : continous numerical
-fBodyBodyGyroJerkMag-meanFreq()     : continous numerical
-angle(tBodyAccMean,gravity)         : continous numerical
-angle(tBodyAccJerkMean),gravityMean): continous numerical
-angle(tBodyGyroMean,gravityMean)    : continous numerical
-angle(tBodyGyroJerkMean,gravityMean): continous numerical
-angle(X,gravityMean)                : continous numerical
-angle(Y,gravityMean)                : continous numerical
-angle(Z,gravityMean)                : continous numerical
-tBodyAcc-std()-X                    : continous numerical
-tBodyAcc-std()-Y                    : continous numerical
-tBodyAcc-std()-Z                    : continous numerical
-tGravityAcc-std()-X                 : continous numerical
-tGravityAcc-std()-Y                 : continous numerical
-tGravityAcc-std()-Z                 : continous numerical
-tBodyAccJerk-std()-X                : continous numerical
-tBodyAccJerk-std()-Y                : continous numerical
-tBodyAccJerk-std()-Z                : continous numerical
-tBodyGyro-std()-X                   : continous numerical
-tBodyGyro-std()-Y                   : continous numerical
-tBodyGyro-std()-Z                   : continous numerical
-tBodyGyroJerk-std()-X               : continous numerical
-tBodyGyroJerk-std()-Y               : continous numerical
-tBodyGyroJerk-std()-Z               : continous numerical
-tBodyAccMag-std()                   : continous numerical
-tGravityAccMag-std()                : continous numerical
-tBodyAccJerkMag-std()               : continous numerical
-tBodyGyroMag-std()                  : continous numerical
-tBodyGyroJerkMag-std()              : continous numerical
-fBodyAcc-std()-X                    : continous numerical
-fBodyAcc-std()-Y                    : continous numerical
-fBodyAcc-std()-Z                    : continous numerical
-fBodyAccJerk-std()-X                : continous numerical
-fBodyAccJerk-std()-Y                : continous numerical
-fBodyAccJerk-std()-Z                : continous numerical
-fBodyGyro-std()-X                   : continous numerical
-fBodyGyro-std()-Y                   : continous numerical
-fBodyGyro-std()-Z                   : continous numerical
-fBodyAccMag-std()                   : continous numerical
-fBodyBodyAccJerkMag-std()           : continous numerical
-fBodyBodyGyroMag-std()              : continous numerical
-fBodyBodyGyroJerkMag-std()          : continous numerical
+* subject                             : integer ( 0-30 )
+* activity                            : nominal (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING)
+* tBodyAcc-mean()-X                   : continous numerical
+* tBodyAcc-mean()-Y                   : continous numerical
+* tBodyAcc-mean()-Z                   : continous numerical
+* tGravityAcc-mean()-X                : continous numerical
+* tGravityAcc-mean()-Y                : continous numerical
+* tGravityAcc-mean()-Z                : continous numerical
+* tBodyAccJerk-mean()-X               : continous numerical
+* tBodyAccJerk-mean()-Y               : continous numerical
+* tBodyAccJerk-mean()-Z               : continous numerical
+* tBodyGyro-mean()-X                  : continous numerical
+* tBodyGyro-mean()-Y                  : continous numerical
+* tBodyGyro-mean()-Z                  : continous numerical
+* tBodyGyroJerk-mean()-X              : continous numerical
+* tBodyGyroJerk-mean()-Y              : continous numerical
+* tBodyGyroJerk-mean()-Z              : continous numerical
+* tBodyAccMag-mean()                  : continous numerical
+* tGravityAccMag-mean()               : continous numerical
+* tBodyAccJerkMag-mean()              : continous numerical
+* tBodyGyroMag-mean()                 : continous numerical
+* tBodyGyroJerkMag-mean()             : continous numerical
+* fBodyAcc-mean()-X                   : continous numerical
+* fBodyAcc-mean()-Y                   : continous numerical
+* fBodyAcc-mean()-Z                   : continous numerical
+* fBodyAcc-meanFreq()-X               : continous numerical
+* fBodyAcc-meanFreq()-Y               : continous numerical
+* fBodyAcc-meanFreq()-Z               : continous numerical
+* fBodyAccJerk-mean()-X               : continous numerical
+* fBodyAccJerk-mean()-Y               : continous numerical
+* fBodyAccJerk-mean()-Z               : continous numerical
+* fBodyAccJerk-meanFreq()-X           : continous numerical
+* fBodyAccJerk-meanFreq()-Y           : continous numerical
+* fBodyAccJerk-meanFreq()-Z           : continous numerical
+* fBodyGyro-mean()-X                  : continous numerical
+* fBodyGyro-mean()-Y                  : continous numerical
+* fBodyGyro-mean()-Z                  : continous numerical
+* fBodyGyro-meanFreq()-X              : continous numerical
+* fBodyGyro-meanFreq()-Y              : continous numerical
+* fBodyGyro-meanFreq()-Z              : continous numerical
+* fBodyAccMag-mean()                  : continous numerical
+* fBodyAccMag-meanFreq()              : continous numerical
+* fBodyBodyAccJerkMag-mean()          : continous numerical
+* fBodyBodyAccJerkMag-meanFreq()      : continous numerical
+* fBodyBodyGyroMag-mean()             : continous numerical
+* fBodyBodyGyroMag-meanFreq()         : continous numerical
+* fBodyBodyGyroJerkMag-mean()         : continous numerical
+* fBodyBodyGyroJerkMag-meanFreq()     : continous numerical
+* angle(tBodyAccMean,gravity)         : continous numerical
+* angle(tBodyAccJerkMean),gravityMean): continous numerical
+* angle(tBodyGyroMean,gravityMean)    : continous numerical
+* angle(tBodyGyroJerkMean,gravityMean): continous numerical
+* angle(X,gravityMean)                : continous numerical
+* angle(Y,gravityMean)                : continous numerical
+* angle(Z,gravityMean)                : continous numerical
+* tBodyAcc-std()-X                    : continous numerical
+* tBodyAcc-std()-Y                    : continous numerical
+* tBodyAcc-std()-Z                    : continous numerical
+* tGravityAcc-std()-X                 : continous numerical
+* tGravityAcc-std()-Y                 : continous numerical
+* tGravityAcc-std()-Z                 : continous numerical
+* tBodyAccJerk-std()-X                : continous numerical
+* tBodyAccJerk-std()-Y                : continous numerical
+* tBodyAccJerk-std()-Z                : continous numerical
+* tBodyGyro-std()-X                   : continous numerical
+* tBodyGyro-std()-Y                   : continous numerical
+* tBodyGyro-std()-Z                   : continous numerical
+* tBodyGyroJerk-std()-X               : continous numerical
+* tBodyGyroJerk-std()-Y               : continous numerical
+* tBodyGyroJerk-std()-Z               : continous numerical
+* tBodyAccMag-std()                   : continous numerical
+* tGravityAccMag-std()                : continous numerical
+* tBodyAccJerkMag-std()               : continous numerical
+* tBodyGyroMag-std()                  : continous numerical
+* tBodyGyroJerkMag-std()              : continous numerical
+* fBodyAcc-std()-X                    : continous numerical
+* fBodyAcc-std()-Y                    : continous numerical
+* fBodyAcc-std()-Z                    : continous numerical
+* fBodyAccJerk-std()-X                : continous numerical
+* fBodyAccJerk-std()-Y                : continous numerical
+* fBodyAccJerk-std()-Z                : continous numerical
+* fBodyGyro-std()-X                   : continous numerical
+* fBodyGyro-std()-Y                   : continous numerical
+* fBodyGyro-std()-Z                   : continous numerical
+* fBodyAccMag-std()                   : continous numerical
+* fBodyBodyAccJerkMag-std()           : continous numerical
+* fBodyBodyGyroMag-std()              : continous numerical
+* fBodyBodyGyroJerkMag-std()          : continous numerical
 
 Further descriptions of these variables is available in 'UCI HAR Dataset/features_info.txt'
 
