@@ -104,6 +104,7 @@ The Raw data is available inside the 'UCI HAR Dataset' directory.
 ### How to generate tidy dataset from raw data
 
 To generate the tidy dataset from the raw dataset simply run the run_analysis.R script inside the project folder. The script is well commented. But in summary it goes through the following steps:
+
 1. Merges the training and the test sets to create one data set. The training and test sets can be found in the UCI HAR Datset directory under the train and test directories respectively.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses the activity labels e.g WALKING, etc to label the activities in the data set
